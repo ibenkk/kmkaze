@@ -1,0 +1,332 @@
+*, html {
+    padding: 0;
+    margin: 0;
+
+}
+
+@media screen and (max-width:640px) {
+    html {
+        background: white;
+        overflow-x: hidden;
+        height: auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .padding-10 {
+        padding: 10px;
+    }
+
+    /* navbar */
+    .navbar-landingpage {
+        background: rgb(0, 166, 255);
+        /* background: rgba(186, 225, 255, 0.254); */
+        width: 100%;
+        max-width: 100%;
+
+        max-height: 20vh;
+        /* height: auto; */
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        /* position: fixed; */
+        /* border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px; */
+
+    }
+
+    .ul-navbar-landingpage {
+        display: flex;
+        list-style: none;
+        padding: 10px;
+        /* background: red; */
+        height: auto;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .li-navbar-landingpage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: beige; */
+        color: whitesmoke;
+    }
+
+    /* content 1 */
+    .content-landingpage {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        height: 50vh;
+        background: rgb(0, 166, 255);
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        overflow: hidden;
+    }
+
+    .content-landingpage .section1 {
+        height: 25%;
+        /* background: rgb(0, 166, 255); */
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    /* item 1 */
+    .item-section1 {
+        width: 50%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        /* background: rebeccapurple; */
+    }
+
+    .content-landingpage .section1 button {
+        background: white;
+        border: none;
+        height: inherit;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .content-landingpage .section1 input {
+        height: 35px;
+        display: flex;
+        width: 100%;
+        border: none;
+        /* border-radius: 10px; */
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    /* section 2 */
+
+    .section2 {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .section2 .item1-section2 {
+        background: rgb(0, 166, 255);
+        width: 25%;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper {
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 .item2-section2 {
+        /* background: rgb(56, 59, 62); */
+        width: 75%;
+        display: flex;
+        height: 100%;
+        overflow: hidden;
+
+    }
+
+    .object-hiasan-item2-section2 {
+
+        max-width: 75%;
+        height: 37.5%;
+        position: absolute;
+        /* aspect-ratio: 16/9; */
+        overflow: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        /* background-color: aqua; */
+        /* left: 0%; */
+        /* right: 0%; */
+        display: flex;
+    }
+
+
+    .object-hiasan-item2-section2 img {
+        flex: 1 0 100%;
+        overflow: hidden;
+        background: white;
+        margin: 1px;
+        border-radius: 20px;
+    }
+
+
+    .hiasan1-item2-section2 {
+        background: rgb(219, 237, 246);
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        top: 40%;
+        right: -75%;
+
+    }
+
+    .hiasan2-item2-section2 {
+        background: rgb(237, 249, 255);
+        width: 225px;
+        height: 200px;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        top: 75%;
+        margin-right: -50%;
+    }
+
+    .hiasan3-item2-section2 {
+
+        background: rgb(0, 164, 253);
+        width: 300px;
+        height: 300px;
+        transform: rotate(60deg);
+        /* border-radius: 50%; */
+        position: relative;
+        display: flex;
+        z-index: 2;
+        top: 80%;
+        right: -15%;
+        margin-right: -100%;
+    }
+
+    /* Menu Utama */
+    .MenuUtama-Landingpage {
+        /* background: brown; */
+        height: 25vh;
+        max-width: 100%;
+        width: 100%;
+        overflow: hidden;
+        padding: 10px 0px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .menu1-MenuUtama-Landingpage {
+        /* background: rgb(207, 223, 232); */
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+
+    }
+
+    .menu1-MenuUtama-Landingpage button, .menu2-MenuUtama-Landingpage button {
+        /* padding: 10px; */
+        border: none;
+        width: 60px;
+        height: 55px;
+        box-shadow: 1px 2px 2px 1px black;
+        display: flex;
+
+        /* flex-direction: row; */
+    }
+
+    .menu1-MenuUtama-Landingpage a, .menu2-MenuUtama-Landingpage a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .menu1-MenuUtama-Landingpage .container-button {
+        width: 100%;
+        background: whitesmoke;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .menu2-MenuUtama-Landingpage {
+        /* background: aliceblue; */
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+
+    .menu2-MenuUtama-Landingpage .container-button {
+        width: 100%;
+        /* background: rgb(0, 166, 255); */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .BaseSale-Landingpage {
+        display: flex;
+        width: 100%;
+
+        justify-content: space-between;
+        /* padding: 20px; */
+    }
+
+    .BestItemVape-landingpage {
+        width: 100%;
+        max-width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(139, 196, 228);
+    }
+
+    .ul-BestItemVape-landingpage {
+        list-style: none;
+        display: flex;
+        width: 80%;
+        max-width: 80%;
+        overflow: hidden;
+        background: white;
+        height: 80%;
+        border-radius: 10px;
+    }
+
+    .list-BestItemVape {
+        width: 50%;
+        /* background-color: antiquewhite; */
+        /* background: url('/image/landingpage/bg-bestvape.gif');
+        background-position: center;
+        background-size: cover; */
+        box-shadow: 2px 20px 2px 2px black;
+    }
+
+    .list-BestItemVape img {
+        width: 100%;
+        height: 100%;
+        /* aspect-ratio: 16/9; */
+        display: flex;
+    }
+
+    .list2-BestItemVape {
+        width: 50%;
+    }
+
+    .Subitem-BestItemVape {
+        width: inherit;
+        display: flex;
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        padding-left: 10px;
+        justify-content: space-around;
+        flex-direction: column;
+        background: rgb(207, 223, 232);
+    }
+
+}
