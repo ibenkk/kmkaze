@@ -12,7 +12,7 @@
 
 <body>
     @livewire('NavbarLandingpage')
-    @include('Frontend.section.content')
+    @livewire('landingpage')
     @yield('DaftarContent')
 </body>
 

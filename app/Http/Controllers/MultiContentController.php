@@ -12,11 +12,16 @@ class MultiContentController extends Controller
      */
     public function index($kategory)
     {
-// dd($kategory);
-$products=Product::where('kategory',$kategory)->get();
+if ($kategory=="kapas_coil") {
 
+    return view('Frontend/section/daftarcontent',[
+        'products'=>Product::where('product_category','Kapas')->orWhere('product_category','Coil')->get(),
+    ]);
+
+
+}
         return view('Frontend/section/daftarcontent',[
-            'products'=>$products,
+            'products'=>Product::where('product_category',$kategory)->get(),
         ]);
     }
 
@@ -41,8 +46,7 @@ $products=Product::where('kategory',$kategory)->get();
      */
     public function show(string $kategory,string $id)
     {
-
-return view('Frontend.section.singlecontent',['kategory'=>$kategory]);
+return view('Frontend.section.singlecontent',['kategory'=>$kategory,'product'=>Product::find($id)]);
     }
 
     /**

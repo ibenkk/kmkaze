@@ -7,12 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vape Store</title>
     <link rel="stylesheet" href="/css/Frontend/landingpage.css">
+    <link rel="stylesheet" href="/css/Animation/landingpage.css">
+
 </head>
 
 <body>
     @livewire('NavbarLandingpage')
-    @include('Frontend.section.content')
-    @include('Frontend.section.menulandingpage')
+    @livewire('landingpage')
+    @livewire('menulandingpage')
+
 </body>
+<script src="/js/landingpage/landingpage.js"></script>
 
 </html>

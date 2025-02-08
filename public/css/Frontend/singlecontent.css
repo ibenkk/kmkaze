@@ -41,6 +41,7 @@
         flex-direction: column;
         list-style: none;
         /* background: blue; */
+        padding: 10px;
     }
 
     .item-product-SingleContent img {
@@ -145,8 +146,8 @@
     .checkout-SingleContent {
         width: 100%;
         height: auto;
-        min-height: 21.7vh;
-        /* background: red; */
+        min-height: 11.7vh;
+        background: whitesmoke;
         display: flex;
         justify-content: center;
     }
@@ -157,6 +158,11 @@
         /* background: aliceblue; */
         height: auto;
         display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .content2-item-checkout {
         justify-content: space-around;
         align-items: center;
     }
@@ -182,6 +188,9 @@
 
     }
 
+    #Loading_notification {
+        display: none;
+    }
 
     .checkout-notificatoin {
         width: 100%;
@@ -189,7 +198,8 @@
         /* position: absolute; */
         top: 0;
         position: fixed;
-        display: none;
+
+        display: flex;
         justify-content: center;
         align-items: center;
         background: rgba(0, 0, 0, 0.633);
@@ -201,9 +211,10 @@
         /* padding-right: 5px; */
         border: 1px solid black;
         width: 50%;
+        overflow: hidden;
         opacity: 100%;
         background: rgb(255, 255, 255);
-        height: 20vh;
+        height: auto;
         list-style: none;
         display: flex;
         flex-direction: column;
@@ -227,7 +238,31 @@
     }
 
     .deskripsi-checkout-notification {
+        display: flex;
+        flex-direction: column;
+        /* padding: 10px 20px; */
         padding-left: 20px;
+    }
+
+    .loading_otp {
+
+        padding: 20px 0px;
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .deskripsi-checkout-notification h4 {
+        margin-top: 10px;
+        font-weight: normal;
+        width: 90%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .deskripsi-checkout-notification input {
+        width: 80%;
+        margin: 10px 0px;
+        padding: 5px 0px;
     }
 
     .judul-checkout-notification h3 {
@@ -237,8 +272,9 @@
 
     .back-checkout-notification {
         display: flex;
-
-        justify-content: space-between;
+        padding-top: 7px;
+        border-top: 2px solid black;
+        justify-content: space-around;
 
     }
 
@@ -251,7 +287,83 @@
     }
 
     .back-checkout-notification button:nth-child(1) {
-        background: green;
+        background: rgb(128, 0, 0);
     }
+
+
+    .precheckout-product {
+        width: 100%;
+        height: auto;
+        display: none;
+        flex-direction: column;
+        /* background: black; */
+    }
+
+    .precheckout-product h3 {
+        width: 100%;
+        text-align: center;
+        /* padding: 10px 0px; */
+        padding-top: 10px;
+
+    }
+
+    .form-precheckout-product {
+        width: 100%;
+
+        min-height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .wrapper-form-precheckout-product {
+        width: 100%;
+        margin: 10px 0px;
+        display: flex;
+        height: auto;
+        justify-content: center;
+        /* background: red; */
+        align-items: center;
+    }
+
+    .input-form-precheckout-product {
+        width: 50%;
+        /* background: red; */
+        display: flex;
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-form-precheckout-product input {
+        margin: 10px 0px;
+        padding: 3px 0px;
+        border: none;
+        background: none;
+        border-bottom: 1px solid whitesmoke;
+        color: rgb(26, 26, 26);
+        background: none;
+
+    }
+
+    .input-form-precheckout-product input::placeholder {
+        color: white;
+    }
+
+    .textarea-form-precheckout-product {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textarea-form-precheckout-product textarea {
+        width: 100%;
+        border-radius: 10px;
+        padding: 2px 5px;
+    }
+
 
 }

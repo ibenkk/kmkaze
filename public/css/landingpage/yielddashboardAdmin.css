@@ -1,0 +1,272 @@
+/* Kontainer Kontent */
+.kontainer-kontent-dashboardCustomer {
+    min-height: 90vh;
+    max-height: 90vh;
+    height: auto;
+    width: 82%;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    margin-left: 18%;
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/*  */
+
+
+/* landingpage dashboard */
+.item-kontainer-kontent-dashboardCustomer {
+
+    background: rgba(255, 255, 255, 0.111);
+    /* margin: 20px 0px; */
+    min-height: 90vh;
+    max-height: 90vh;
+    box-shadow: 0px 10px 10px 10px rgba(165, 165, 165, 0.622);
+    height: auto;
+    backdrop-filter: blur(20);
+    /* overflow: scroll; */
+    /* margin-bottom: 20px; */
+    margin-top: 40px;
+    overflow: hidden;
+    width: 90%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.content-item-kontainer-kontent-dashboardCustomer {
+
+    width: 100%;
+    height: 30%;
+    background: url('/image/landingpage/vapestore.jpg');
+    box-shadow: 0px 2px 10px 10px black;
+    /* background: rgb(0, 164, 253); */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.kontainer-content2-item-kontainer-kontent-dashboardCustomer {
+    max-height: 65%;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scroll-snap-align: inherit;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* width: 100%; */
+    /* background: rebeccapurple; */
+}
+
+.content2-item-kontainer-kontent-dashboardCustomer {
+
+    width: 17%;
+    height: 26%;
+    top: 28%;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: rgb(84, 84, 84);
+    box-shadow: 0px 1px 20px 5px black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.content2-item-kontainer-kontent-dashboardCustomer img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.content3-item-kontainer-kontent-dashboardCustomer {
+    width: 100%;
+    /* background: aliceblue; */
+    color: rgb(0, 0, 0);
+    display: flex;
+    height: auto;
+    justify-content: right;
+    align-items: center;
+    margin: 10px 0px;
+
+}
+
+.content3-item-kontainer-kontent-dashboardCustomer h2 {
+    margin-right: 20px;
+
+
+}
+
+.content4-item-kontainer-kontent-dashboardCustomer {
+
+    width: 100%;
+    /* background: aliceblue; */
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.542);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.content4-item-kontainer-kontent-dashboardCustomer h2 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.content3-item-kontainer-kontent-dashboardCustomer h2 {
+    padding: 10px;
+
+}
+
+.content5-item-kontainer-kontent-dashboardCustomer {
+    width: 100%;
+    /* background:white; */
+    color: whitesmoke;
+    color: rgba(0, 0, 0, 0.744);
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content5-item-kontainer-kontent-dashboardCustomer ul {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.744);
+}
+
+.content5-item-kontainer-kontent-dashboardCustomer ul li {
+    padding: 10px;
+}
+
+.item-content5-item-kontainer-kontent-dashboardCustomer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    /* background: blue; */
+}
+
+.item2-content5-item-kontainer-kontent-dashboardCustomer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+}
+
+.item3-content5-item-kontainer-kontent-dashboardCustomer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    color: rgba(0, 0, 0, 0.542);
+}
+
+.content6-item-kontainer-kontent-dashboardCustomer {
+    width: 100%;
+    /* background: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.content6-item-kontainer-kontent-dashboardCustomer input {
+    width: 100%;
+    background: none;
+    height: inherit;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.content6-item-kontainer-kontent-dashboardCustomer select {
+    width: 100%;
+    background: none;
+    height: inherit;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.content6-item-kontainer-kontent-dashboardCustomer select option {
+
+    color: rgb(0, 0, 0);
+}
+
+.content6-item-kontainer-kontent-dashboardCustomer table {
+    width: 90%;
+    /* border: 1px solid black; */
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(7, 5, 5);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.542);
+}
+
+.content6-item-kontainer-kontent-dashboardCustomer table td {
+    border-right: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.542);
+    padding: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background: none;
+}
+
+.content6-item-kontainer-kontent-dashboardCustomer table tr {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.content6-item-kontainer-kontent-dashboardCustomer table th {
+    padding: 10px;
+    color: rgb(34, 26, 26);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+.back-dashboardcustomer {
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: end;
+    padding-right: 20%;
+    align-items: center;
+    min-height: 5vh;
+    margin-bottom: 30px;
+}
+
+.back-dashboardcustomer button {
+    margin-right: 30px;
+    padding: 5px 15px;
+}
+
+/*  */

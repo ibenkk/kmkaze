@@ -1,0 +1,162 @@
+@keyframes banner {
+    0% {
+        width: 0%;
+        opacity: 0;
+        height: 0vh;
+        background: rgb(255, 255, 255);
+    }
+
+    30% {
+        background: rgb(255, 255, 255);
+
+        opacity: 5%;
+        height: 25vh;
+    }
+
+    100% {
+        background: rgb(0, 166, 255);
+        width: 100%;
+        opacity: 1;
+        height: 50vh;
+    }
+
+}
+
+@keyframes objecthiasan {
+    0% {
+        top: 40%;
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 10%;
+        top: 50%;
+    }
+
+}
+
+@keyframes objecthiasan2 {
+    0% {
+        opacity: 10%;
+        top: 75%;
+    }
+
+    100% {
+        top: 70%;
+        opacity: 100%;
+    }
+
+}
+
+@keyframes kontainermenu {
+    0% {
+        height: 0vh;
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        height: 25vh;
+    }
+
+
+}
+
+@keyframes fadein {
+    0% {
+        /* height: 0vh; */
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0%;
+        /* height: 25vh; */
+    }
+
+
+}
+
+@keyframes bestproduct-vape {
+    0% {
+        /* height: 0vh; */
+        margin-left: -100px;
+        opacity: 0;
+
+
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0%;
+        /* margin-left: 0%; */
+
+    }
+
+
+}
+
+@keyframes bestproduct-others {
+    0% {
+        /* height: 0vh; */
+        /* height: 0vh; */
+        opacity: 0;
+        margin-left: 100px;
+
+    }
+
+    100% {
+        opacity: 1;
+        /* margin-left: 0%; */
+        /* height: 20vh; */
+        margin-left: 0px;
+    }
+
+
+}
+
+#menu {
+    margin-left: 10%;
+    animation: fadein 2s 3s ease-in-out alternate both;
+}
+
+#menu1 {
+    margin-left: 10%;
+    animation: fadein 2s 3.5s ease-in-out alternate both;
+}
+
+#menu2 {
+    margin-left: 10%;
+    animation: fadein 2s 4s ease-in-out alternate both;
+}
+
+#menu3 {
+    margin-left: 10%;
+    animation: fadein 2s 4.5s ease-in-out alternate both;
+}
+
+#menu4 {
+    animation: fadein 2s 5s ease-in-out alternate both;
+}
+
+#menu5 {
+    animation: fadein 2s 5.5s ease-in-out alternate both;
+}
+
+#menu6 {
+    animation: fadein 2s 6s ease-in-out alternate both;
+}
+
+#menu7 {
+    animation: fadein 2s 6.5s ease-in-out alternate both;
+}
+
+#bestproduct-vape {
+    animation: bestproduct-vape 2s 7s ease-in-out alternate both;
+
+}
+
+#bestproduct-others {
+    animation: bestproduct-others 2s 7.3s ease-in-out alternate both;
+}

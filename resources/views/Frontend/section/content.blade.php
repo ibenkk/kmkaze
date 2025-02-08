@@ -2,7 +2,6 @@
 <div class="content-landingpage">
     <div class="section1">
         <div class="item-section1">
-
             <button>
                 <svg viewBox="0 0 24 24" width="30px" height="30px" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -16,11 +15,8 @@
             </button>
             <input type="text" placeholder="Search Item">
         </div>
-
-
     </div>
     <div class="section2">
-
         <div class="item1-section2">
             <h1>Vape Store</h1>
         </div>
@@ -37,8 +33,6 @@
                     srcset="">
                 <img id="slide5" width="100%" src="/image/landingpage/vape-content1 .png" alt=""
                     srcset="">
-
-
             </div>
             <div class="hiasan1-item2-section2">
 

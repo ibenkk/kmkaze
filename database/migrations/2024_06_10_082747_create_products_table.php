@@ -15,8 +15,13 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name_product');
-            $table->string('kategory');
-            $table->string('harga');
+            $table->text('product_description');
+            $table->string('product_category');
+            $table->string('best_product');
+            $table->integer('total_penjualan')->default(0);
+            $table->integer('product_price');
+            $table->integer('product_stock');
+            $table->string('product_picture')->nullable(true);
 
         });
     }

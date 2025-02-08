@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class LandingpageController extends Controller
@@ -11,8 +12,9 @@ class LandingpageController extends Controller
      */
     public function index()
     {
+
         return view('Frontend/Landingpage');
-      dd("Masuk");
+
     }
 
     /**
